@@ -1,0 +1,54 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+# Исключить IDE-файлы и папки
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Исключить Maven и Gradle временные файлы
+target/
+build/
+out/
+
+# Исключить скомпилированные байт-коды и другие бинарные файлы
+*.class
+*.jar
+*.war
+*.ear
+
+# Исключить лог-файлы и временные файлы
+*.log
+*.tmp
+*.swp
+*.DS_Store
+
+# Исключить системные файлы
+Thumbs.db
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+/.gitignore
